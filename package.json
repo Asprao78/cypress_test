@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress_tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Srini",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.0",
+    "@testing-library/cypress": "^10.0.1",
+    "cypress": "^13.6.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.8.1"
+  },
+  "dependencies": {
+    "neat-csv": "^5.2.0"
+  }
+}
